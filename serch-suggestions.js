@@ -1,4 +1,3 @@
-
 const mediaQuery = window.matchMedia("(min-width: 1100px)")
 
 if (mediaQuery.matches) {
@@ -68,7 +67,5 @@ function renderMerchAction() {
         ">${categoryName[i]}</a></div>`
     }
 }
-
 renderMerchAction()
-
 }
